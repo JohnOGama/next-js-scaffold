@@ -230,7 +230,7 @@ export default config;
       path: 'README.md',
       content: `# ${projectName}
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [scafold](https://github.com/your-repo/scafold).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [scaffold](https://github.com/your-repo/scaffold).
 
 ## Getting Started
 
@@ -335,11 +335,11 @@ import CodeBlock from "@/shared/components/CodeBlock";
 
 // Links and Constants
 const LINKS = {
-  npm: "https://www.npmjs.com/package/scafold",
-  github: "https://github.com/JohnOGama/next-js-scafold",
+  npm: "https://www.npmjs.com/package/scaffold",
+  github: "https://github.com/JohnOGama/next-js-scaffold",
   linkedin: "https://www.linkedin.com/in/johnogama/",
   facebook: "https://www.facebook.com/CreatorVayne/",
-  quickStartGuide: "https://github.com/JohnOGama/next-js-scafold/blob/main/README.md",
+  quickStartGuide: "https://github.com/JohnOGama/next-js-scaffold/blob/main/README.md",
 } as const;
 
 const AUTHOR = {
@@ -413,7 +413,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-2">
                   <CodeBlock command={\`git clone \${LINKS.github}.git\`} />
-                  <CodeBlock command="cd next-js-scafold" />
+                  <CodeBlock command="cd next-js-scaffold" />
                   <CodeBlock command="npm install" />
                   <CodeBlock command="npm run build" />
                   <CodeBlock command="npm link" />
@@ -446,7 +446,7 @@ export default function Home() {
                     <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Interactive Mode</span>
                     <span className="text-xs px-2 py-0.5 rounded-full bg-green-500/20 text-green-400 border border-green-500/30">Recommended</span>
                   </div>
-                  <CodeBlock command="next-js-scafold" />
+                  <CodeBlock command="next-js-scaffold" />
                 </div>
               </div>
             </div>

@@ -1,11 +1,11 @@
 {
-  "name": "next-js-scafold",
+  "name": "next-js-scaffold",
   "version": "1.0.0",
   "description": "A scaffold tool to generate Next.js projects with a structured architecture",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "next-js-scafold": "bin/cli.js"
+    "next-js-scaffold": "bin/cli.js"
   },
   "scripts": {
     "build": "tsc",

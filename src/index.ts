@@ -14,7 +14,7 @@ function showWelcome() {
 }
 
 program
-  .name('next-js-scafold')
+  .name('next-js-scaffold')
   .description('Generate a Next.js project with structured architecture')
   .version('1.0.0')
   .argument('[project-name]', 'Name of the project to create')
