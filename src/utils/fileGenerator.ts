@@ -339,7 +339,7 @@ const LINKS = {
   github: "https://github.com/JohnOGama/next-js-scafold",
   linkedin: "https://www.linkedin.com/in/johnogama/",
   facebook: "https://www.facebook.com/CreatorVayne/",
-  quickStartGuide: "https://github.com/yourusername/scafold-repo/blob/main/readme/QUICK_START.md",
+  quickStartGuide: "https://github.com/JohnOGama/next-js-scafold/blob/main/README.md",
 } as const;
 
 const AUTHOR = {
