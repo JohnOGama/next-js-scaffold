@@ -413,7 +413,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-2">
                   <CodeBlock command={\`git clone \${LINKS.github}.git\`} />
-                  <CodeBlock command="cd scafold-repo" />
+                  <CodeBlock command="cd next-js-scafold" />
                   <CodeBlock command="npm install" />
                   <CodeBlock command="npm run build" />
                   <CodeBlock command="npm link" />
