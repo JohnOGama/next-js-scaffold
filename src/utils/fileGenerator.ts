@@ -1143,6 +1143,9 @@ export default function LoginForm() {
 /.pnp
 .pnp.js
 
+# scripts
+scripts/
+
 # testing
 /coverage
 
